@@ -36,7 +36,13 @@
   color: black;
   background-color: rgba(255, 255, 255, 0.3);
 }
-
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 10px;
+  display:none;
+}
  /* bagian pembuka */
 .top-wrapper {
   width: 100%;
@@ -142,10 +148,11 @@
     font-size: 18px;
   }
   .header-right {
-    font-size: 20;
-    padding: 0 5px;
-    line-height: 40px;
+    display:none;
   }
+  .menu-icon {
+   display:block;
+ }
 }
 
 /* code edit semua */
