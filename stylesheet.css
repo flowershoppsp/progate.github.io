@@ -43,8 +43,8 @@
   visibility: hidden;
   color: rgb(255, 255, 255);
   float: right;
-  font-size: 45px;
-  padding: 31px 0;
+  font-size: 80px;
+  padding: 25px 15px;
   display: none;
 }
 
@@ -94,24 +94,38 @@
   width: 25%; /*diganti*/
   padding-left: 20px;
   padding-right: 15px;
-  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
   transition: all 0.5s;
-
+  
 }
 .item img {
   height:200px;
   width:200px;
   border-radius: 10px;
+  position: relative;
 }
-
+.item h4 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
 .item p {
-  margin-top: -5px;
+  margin-top: 0;
   display: inline-block;
   width: 100%;
-  background-color: black;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: normal;
 }
 .item:hover {
   background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  transform: scale(1.05);
+}
+.item p:hover {
+  background-color: white;
+  pointer-event: auto;
 }
 .clear  {
   clear:left;
@@ -164,8 +178,10 @@
    display:none;
   }
   .menu-icon{
-    display:  block;
-    visibility: visible;
+   visibility: visible;
+  }
+  .menu-icon:hover {
+
   }
 }
 
