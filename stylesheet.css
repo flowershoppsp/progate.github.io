@@ -33,6 +33,7 @@
   padding: 0 25px;
   color: white;
   font-size: 24px;
+  display: inline-block;
   transition: all 0.5s;
 }
 .header-right a:hover {
@@ -43,9 +44,9 @@
   visibility: hidden;
   color: rgb(255, 255, 255);
   float: right;
-  font-size: 80px;
-  padding: 25px 15px;
-  display: none;
+  font-size: 30px;
+  margin-top: -22px;
+  margin-right: 10px;
 }
 
  /* bagian pembuka */
@@ -155,6 +156,14 @@
 
 /* responsive Untuk Tablet */
 @media all and (max-width: 1000px) {
+  .logo {
+    width: 40%;
+  }
+  .header-right {
+   margin-top: -60px;
+   margin-right: -10px;
+
+  }
   .item {
     width: 50%;
     box-sizing: border-box;
@@ -167,12 +176,19 @@
 
 /* responsive Untuk Smartphone */
 @media all and (max-width: 670px){
+  .logo {
+    width: 70%;
+    margin-left: -15px;
+  }
   .item {
     width: 100%;
     box-sizing: border-box;
   }
+  .top-wrapper h1 {
+    font-size: 28px;
+  }
   .top-wrapper h2 {
-   font-size: 18px;
+   font-size: 16px;
   }
   .header-right{
    display:none;
