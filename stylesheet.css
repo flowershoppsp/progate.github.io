@@ -69,10 +69,13 @@
   letter-spacing: 5px;
   margin-bottom: 10px;
   color:black;
+  animation: fadeInDown 2s; /* referring directly to the animation's @keyframe declaration *//* don't forget to set a duration! */
 }
+
 .top-wrapper h2 {
   opacity: 0.9;
   color:white;
+  animation: fadeInUp 2s; /* referring directly to the animation's @keyframe declaration *//* don't forget to set a duration! */
 }
  /* bagian tengah */
 .contents h2 {
