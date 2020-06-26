@@ -45,16 +45,8 @@
   float: right;
   font-size: 45px;
   padding: 31px 0;
-}
-/*}
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 30px;
-  padding: 15px 20px;
   display: none;
-  visibility: hidden; /*ditambah*/
-}*/
+}
 
  /* bagian pembuka */
 .top-wrapper {
@@ -109,14 +101,14 @@
 .item img {
   height:200px;
   width:200px;
+  border-radius: 10px;
 }
 
 .item p {
-  font-size: 24px;
   margin-top: -5px;
   display: inline-block;
   width: 100%;
-  background-color: white;
+  background-color: black;
 }
 .item:hover {
   background-color: rgba(255, 255, 255, 0.3);
@@ -160,7 +152,6 @@
 
 
 /* responsive Untuk Smartphone */
-/* Untuk Smartphone */
 @media all and (max-width: 670px){
   .item {
     width: 100%;
@@ -181,6 +172,7 @@
 /* code edit semua */
 * {
   box-sizing: border-box;
+  font-family: 'Balsamiq Sans', cursive;
 }
 a {
   text-decoration: none;
